@@ -1,0 +1,23 @@
+.background-slider {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .specialSection .background-slider {
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+  #section0 .background-slider {
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+  }
+}
+/*# sourceMappingURL=background.css.map */
